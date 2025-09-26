@@ -13,9 +13,15 @@ int main()
     int n;
     float media, voto, somma = 0;
 
-    cout<<"Inserisci il numero di voti da registrare per la media: ";
-    cin>>n;
-
+    do{
+        
+        cout<<"Inserisci il numero di voti da registrare per la media: ";
+        cin>>n;
+        if (n < 0)
+        {
+            cout<<"il valore inserito non può essere minore di 0"<<endl;
+        }
+    }(while n < 0)
     for (int i = 1; i<= n; i++)
     {
         cout<<"Inserisci il voto n. "<< i <<" : ";
