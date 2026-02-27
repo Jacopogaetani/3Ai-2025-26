@@ -1,3 +1,4 @@
+
 package Figure;
 
 public class Quadrato {
@@ -9,6 +10,13 @@ public class Quadrato {
         lato = 0f;
         nome = "";
     }
+
+    public Quadrato(float l, String n)
+    {
+        lato = l;
+        nome = n;
+    }
+
 
     float area()
     {
