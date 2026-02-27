@@ -1,0 +1,17 @@
+mkdir lavoro
+cd lavoro
+mkdir Testi | mkdir Backup | mkdir Temp
+cd Testi
+echo > info.txt
+echo File di prova per esercitazione DOS > info.txt
+
+type info.txt
+rename info.txt dati.txt
+copy dati.txt ..\Backup
+move dati.txt ..\Temp
+del dati.txt
+
+cd ..
+dir
+rd /Q /S ..\Temp
+rd /Q /S lavoro
