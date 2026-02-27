@@ -1,0 +1,37 @@
+COMANDI USATI - Gaetani Jacopo 3Ai
+
+ESERCIZIO 1
+mkdir Progetto
+cd Progetto
+mkdir Documenti
+mkdir Immagini
+cd Documenti
+echo appunti > appunti.txt
+move .\appunti.txt C:\Users\Studente\Desktop\Gaetani3Ai\Progetto
+
+ESERCIZIO 2
+type appunti.txt --> Visualizza il contenuto del file
+rename appunti.txt note.txt
+copy note.txt Immagini
+rd Documenti
+
+ESERCIZIO 3
+
+cd Progetto
+
+15/01/2026  10:32    <DIR>          .
+15/01/2026  10:16    <DIR>          ..
+15/01/2026  10:32    <DIR>          Immagini
+15/01/2026  10:24                88 note.txt --> Presente!!
+
+cd Immagini
+dir
+15/01/2026  10:32    <DIR>          .
+15/01/2026  10:32    <DIR>          ..
+15/01/2026  10:24                88 note.txt --> Presente!!
+
+rd /S Progetto
+
+
+15/01/2026  10:36    <DIR>          .
+09/01/2026  12:09    <DIR>          .. --> Nessuna directory
