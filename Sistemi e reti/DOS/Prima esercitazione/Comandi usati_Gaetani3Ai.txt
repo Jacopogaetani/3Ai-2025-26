@@ -1,0 +1,68 @@
+Comandi usati:
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos>mkdir screenshots
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos>mkdir Stagioni
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos>cd Stagioni
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni>cd Autunno
+Impossibile trovare il percorso specificato.
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni>mkdir Autunno
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni>mkdir Inverno
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni>mkdir Primavera
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni>mkdir Estate
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni>cd Inverno
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni\Inverno>mkdir Dicembre
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni\Inverno>mkdir Febbraio
+
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni>cd Estate
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni\Estate>mkdir Luglio
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni\Estate>mkdir Agosto
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni\Estate>cd ..
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni>cd Inverno
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni\Inverno>mkdir Gennaio
+
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni>mkdir vacanze
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni>echo vacanze pasquali > Pasqua.txt
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni>move Pasqua.txt vacanze
+        1 file spostato/i.
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni>cd vacanze
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni\vacanze>dir
+ Il volume nell'unità C non ha etichetta.
+ Numero di serie del volume: B016-FDBC
+
+ Directory di C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni\vacanze
+
+08/01/2026  10:43    <DIR>          .
+08/01/2026  10:43    <DIR>          ..
+08/01/2026  10:42                19 Pasqua.txt
+               1 File             19 byte
+
+
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni>copy C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni\Primavera\Maggio\foto_fiori.txt C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni\Inverno\Gennaio\foto_fiori_gennaio.txt
+        1 file copiati. Ho usato un solo comando
+
+C:\Users\Studente\Desktop\Gaetani3Ai\primaEsercitazioneDos\Stagioni\Inverno\Gennaio>type foto_fiori_gennaio.txt
+fiori. Non ho trovato i nomi dei fiori
+
+aprendo il file della consegna ho trovato dei simboli strani
+
