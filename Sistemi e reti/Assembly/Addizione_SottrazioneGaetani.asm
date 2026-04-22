@@ -2,8 +2,8 @@
 
 data segment
     ; add your data here!  
-    num1 db 81h
-    num2 db 81h
+    num1 db 00h ;inizializzazione delle variabili
+    num2 db 00h
     ris db 00h
     
 ends
@@ -15,7 +15,7 @@ ends
 code segment
 start:
 ; set segment registers:
-    mov ax, data
+    mov ax, data ;Caricamento dei registri
     mov ds, ax
     mov es, ax
     
