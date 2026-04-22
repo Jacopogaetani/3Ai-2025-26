@@ -22,8 +22,8 @@ start:
     mov al, 81h
     mov bl, 80h
                  
-    cmp al, bl ;compara i due registri
-    jne sott; se non solo uguali va al ramo "sott"
+    cmp al, bl ;compara i due registri attraverso una sottrazione
+    jne sott; se non solo uguali va al ramo "sott" controllando lo zf (se al - bl = 0 allora sono uguali)
     add al, bl; altrimenti somma i registri al e bl e inserisce il risultato in al
     mov ris, al; sposta il contenuto del registro al in ris 
     
