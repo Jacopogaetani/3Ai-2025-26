@@ -1,5 +1,5 @@
 ; multi-segment executable file template.
-;Date due variabili eseguire la sottrazione se la prima è maggiore della
+;Date due variabili eseguire la sottrazione se la prima Ã¨ maggiore della
 ;seconda altrimenti sommarle. Inserire il risultato in una terza variabile.
 
 data segment
