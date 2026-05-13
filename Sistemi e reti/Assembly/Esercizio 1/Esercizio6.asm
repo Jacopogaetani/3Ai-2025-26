@@ -23,7 +23,7 @@ start:
     mov ah, 0h
     mov bh, 9h
     
-    inizioCiclo: cmp ah, bh
+    inizioCiclo: cmp ah, bh ;sottrazione fra ah e bh e setta i flag necessari 
     je fineProgramma
     mov [022h], ah
     inc ah
