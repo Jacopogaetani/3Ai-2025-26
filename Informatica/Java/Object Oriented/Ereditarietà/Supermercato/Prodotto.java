@@ -47,6 +47,7 @@ public class Prodotto {
     public float applicaSconto()
     {
         this.prezzoScontato = prezzoUnitario - ((prezzoUnitario  * 5) / 100);
+        System.out.println("Il prodotto " + this.getDescrizioneBreve() + " riceve uno sconto del 5% e il suo prezzo passa a " + this.prezzoScontato + " euro")
         return prezzoScontato;
     }
 
