@@ -25,6 +25,7 @@ public class NonAlimentari extends Prodotto{
     {
         if(materiale == "carta" || materiale == "vetro" || materiale == "plastica")
         {
+            System.out.println("Il materiale " + this.getMateriale() + " rientra nella lista di materiali di prodotti che verranno scontati")
             setPrezzoScontato(getPrezzoUnitario() - (getPrezzoUnitario() * 8) / 100);
             return getPrezzoScontato();
         }
