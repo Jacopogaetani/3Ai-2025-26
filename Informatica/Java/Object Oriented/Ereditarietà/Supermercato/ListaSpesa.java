@@ -39,6 +39,8 @@ public class ListaSpesa {
             listaSpesa[prodottiInLista] = p;
             System.out.println("Aggiunto prodotto "+ p.getDescrizioneBreve());
             prodottiInLista++;
+            //Commentare qui
+            System.out.println("Prodotti in lista:  "+ prodotiInLista);
         }
         else{
             System.out.println("Non è possibile aggiungere questo prodotto");
@@ -60,6 +62,9 @@ public class ListaSpesa {
         for(int i = 0; i < prodottiInLista; i++)
         {
             totaleUnitario+=listaSpesa[i].getPrezzoUnitario();
+            System.out.println("Prezzo unitario dell'articolo : " + listaSpesa[i].getPrezzoUnitario() + ": " + listaSpesa[i].getPrezzoUnitario());
+
+            System.out.println("Prezzo scontato : " + listaSpesa[i].getDescrizioneBreve() + ": " + listaSpesa[i].getPrezzoScontato());
             totaleScontato+=listaSpesa[i].getPrezzoScontato();
         }
 
