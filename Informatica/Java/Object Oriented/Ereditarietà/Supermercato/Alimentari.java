@@ -25,7 +25,8 @@ public class Alimentari extends Prodotto{
     {
         if(giorniConservazione >=  4)
         {
-            setPrezzoScontato(getPrezzoUnitario() -  (getPrezzoUnitario()* 5)/100);
+            System.out.println("Il prodotto ha una più di 4 giorni di conservazione rimanenti, e riceverà uno sconto");
+            setPrezzoScontato(getPrezzoUnitario() -  (getPrezzoUnitario()* 10)/100);
             return getPrezzoScontato();
         }
         else{
